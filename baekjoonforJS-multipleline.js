@@ -1,15 +1,15 @@
 const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout,
+  input: process.stdin,
+  output: process.stdout,
 });
 
 let input = [];
 
 readline.on('line', function(line) {
-    input.push(line);
+  input.push(line);
 }).on('close', function(){
-	/*
-		솔루션 작성
-	*/
-    process.exit();
+  /*
+    솔루션 작성
+  */
+  process.exit();
 });
